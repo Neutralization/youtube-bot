@@ -38,6 +38,6 @@
 
 > git clone `https://github.com/Neutralization/youtube-bot.git`  
 > cd youtube-bot && mkdir Actions  
-> ln -s ~/.config/ ./.config `or` cp -r ~/.config ./.config  
+> cp -r ~/.config ./.config  
 > docker build -t youtube-bot:beta .  
 > docker compose up -d  
