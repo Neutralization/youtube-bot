@@ -4,7 +4,7 @@
 
 ## 配置
 
-- 安装 [Rclone](https://rclone.org/install/)
+- 配置 [Rclone](https://rclone.org/install/)
 
 > curl `https://rclone.org/install.sh` | sudo bash  
 > rclone config  
@@ -12,9 +12,7 @@
 
 配置文件在 `~/.config/rclone/rclone.conf`
 
-- 安装 [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation)
-
-> sudo curl `https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp` -o /usr/bin/yt-dlp
+- 配置 [yt-dlp](https://github.com/yt-dlp/yt-dlp#configuration)
 
 编辑配置文件 `~/.config/yt-dlp/config`
 
@@ -32,7 +30,7 @@
 
 其他配置参考 yt-dlp 的文档
 
-- 安装 [FFmpeg](https://www.ffmpeg.org/)
+- 安装 [Docker](https://docs.docker.com/get-docker/)
 
 ## 部署
 
