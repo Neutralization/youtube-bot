@@ -1,0 +1,9 @@
+version: '3'
+services:
+  worker:
+    build: .
+    restart: always
+    volumes:
+      - ./.config/:/root/.config/
+      - ./Actions/:/root/Actions/
+    network_mode: "host"
